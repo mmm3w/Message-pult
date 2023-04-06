@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/main_corp_id_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="corp id"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            tools:ignore="HardcodedText,TextFields" />
+
+
+        <EditText
+            android:id="@+id/main_corp_secret_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="corp secret"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            tools:ignore="HardcodedText,TextFields" />
+
+        <EditText
+            android:id="@+id/main_agent_id_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="agent id"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            tools:ignore="HardcodedText,TextFields" />
+
+        <Button
+            android:id="@+id/main_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="save"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
+
+
